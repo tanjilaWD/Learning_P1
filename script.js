@@ -125,3 +125,35 @@ adminUser.role = 'user';
 adminUser.password = '123456';
 delete adminUser.email;
 console.log(adminUser);
+//
+const user = {
+    username: "johndoe",
+    email: "john@gmail.com",
+    password:'dkfmkvfk'
+};
+Object.seal(user);
+//Attempt to modify the object
+user.password = 'newpassword'; //Allowed
+user.age = 30; // adding new property is not allowed
+delete user.email // deleting property is not allowed
+console.log(user);
+
+
+//
+const headphone = {
+    brand: 'Sony',
+    price: 3000,
+    color: 'red'
+};
+Object.freeze(headphone);
+ headphone.model = 'abc';
+ console.log(headphone);
+ //
+ const player = {
+    name: 'Messi',
+    goals: 800,
+    club: 'Inter Miami'
+ };
+ Object.freeze(player);
+ player.runs = 400;
+ console.log(player);
