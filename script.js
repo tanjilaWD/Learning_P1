@@ -157,3 +157,39 @@ Object.freeze(headphone);
  Object.freeze(player);
  player.runs = 400;
  console.log(player);
+ //
+ const books = {
+    title: 'Harry Potter',
+    author: 'JK Rowling',
+    pages: 500
+ };
+ Object.seal(books);
+ books.pages = 600;
+ books.color = 'red';
+ console.log(books);
+ //
+ const gadget = {
+    name: 'iPhone',
+    price: 120000,
+    color: 'Black'
+ };
+ delete gadget.price;
+ console.log(gadget);
+ //
+ const animal = {
+    name: 'Tiger',
+    location: 'Sundarban'
+ };
+ Object.freeze(animal);
+ animal.location = 'xyz';
+ console.log(animal);
+ //
+ const food = {
+    name: 'Pizza',
+    price: 500,
+    size: 'Large'
+ }
+ Object.seal(food);
+ food.price = 600;
+ food.pis = 3;
+ console.log(food);
