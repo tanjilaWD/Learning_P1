@@ -26,3 +26,10 @@ function familyMem(){
 }
 familyMem();
 //
+function doubleIt (number){
+    const doubled = number * 2;
+    console.log(doubled);
+}
+doubleIt(15);
+doubleIt(88);
+doubleIt(873);
