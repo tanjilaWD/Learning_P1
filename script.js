@@ -37,3 +37,27 @@ if(profile.city === 'Dhaka'){
     console.log('Aram sob gram e');
 }
 //
+const person1 = {
+    name1: 'Bithi',
+    age1: '20',
+    country1: 'Bangladesh'
+};
+const entries = Object.entries(person1);
+console.log(entries);
+//
+const profile1 = {
+    name: 'Tanjila',
+    age: 22,
+    city: 'Dhaka'
+};
+for (const key in profile){
+    const value = profile[key];
+    console.log(key,value);
+}
+
+const profile2 = {name:'Tanjila', age: 22, city: 'Dhaka'};
+const keys2 = Object.keys(profile);
+for(const key of keys2){
+    console.log(key, profile2[key]);
+}
+//
