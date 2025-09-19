@@ -76,3 +76,28 @@ function addNum (a,b){
 }
 addNum(5,8,9,6);
 //
+function SUM(fAge, sAge){
+    const totalAge = fAge + sAge;
+    console.log(totalAge)
+}
+SUM(45,15);
+//
+function calculator(x,y){
+    const adD = x * y;
+    console.log(adD);
+}
+calculator(20,15);
+//
+function sub (a,b,c){
+    const marks = a + b + c;
+    console.log(marks);
+}
+sub(60,70,80);
+//
+function calculateAge(birthYear){
+    let currentYear = new Date().getFullYear();
+    let age = currentYear - birthYear;
+    return age;
+}
+console.log('Your age is:', calculateAge(2004), 'years');
+//
