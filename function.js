@@ -33,3 +33,10 @@ function doubleIt (number){
 doubleIt(15);
 doubleIt(88);
 doubleIt(873);
+//
+function square (number){
+    const borgo = number * number;
+    console.log('square of', number, 'is:', borgo);
+}
+square(4);
+square(12);
