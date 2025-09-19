@@ -40,3 +40,39 @@ function square (number){
 }
 square(4);
 square(12);
+//
+function add (num1,num2){
+    const sum = num1 + num2;
+    console.log(sum);
+}
+add(5,71);
+//
+function addAll(a,b,c,d,e){
+    const total = a + b+ c+ d+ e;
+    console.log(total);
+}
+addAll(3,4,5,6,7);
+//
+function difference (num1, num2){
+    const diff = num1 - num2;
+    console.log(num1, num2, 'difference is', diff);
+}
+const fatherAge = 40;
+const myAge = 10;
+difference(fatherAge,myAge);
+//
+function addNumbers (a,b){
+    return a + b;
+}
+const result = addNumbers (5,8,9,6);
+console.log(result);
+//
+function addNum (a,b){
+    let sum = 0;
+    for(const num of arguments){
+        sum = sum + num;
+    }
+    console.log(sum);
+}
+addNum(5,8,9,6);
+//
