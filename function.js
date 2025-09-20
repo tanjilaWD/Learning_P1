@@ -235,3 +235,21 @@ function evenSizedString0(str){
 const isEven0 = evenSizedString0('Human');
 console.log(isEven0);
 //
+function dobuleOrTriple(num, doDouble){
+    if(doDouble === true){
+        const result = num * 2;
+        return result;
+    } else{
+        const result = num * 3;
+        return result;
+    }
+}
+console.log(dobuleOrTriple(5, true));
+console.log(dobuleOrTriple(5,false));
+//
+function numberOfElement(nums){
+    const len = nums.length;
+    return len;
+}
+const len = numberOfElement([12,45,78,45,121245,4,5]);
+console.log(len);
