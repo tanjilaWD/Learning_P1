@@ -164,3 +164,46 @@ function ten(Num){
 }
 console.log(ten(60));
 //
+function checkDivisibleBy13(num){
+    if (num % 13 === 0){
+        return true;
+    }else{
+        return false;
+    }
+}
+console.log(checkDivisibleBy13(26));
+console.log(checkDivisibleBy13(30));
+//
+function calculateBill(rice, curry, drinks){
+    return rice + curry + drinks;
+}
+console.log(calculateBill(50,120,30));
+//
+function checkVotingEligibility(age){
+    if(age >= 18){
+        return 'Eligible for Voting';
+    }else{
+        return 'Not Eligible';
+    }
+}
+console.log(checkVotingEligibility(21));
+//
+function getStringLength(str){
+    return str.length;
+}
+console.log(getStringLength('Hello'));
+//
+function calculateAverage(a,b,c){
+    return(a + b+ c) / 3;
+}
+console.log(calculateAverage(10,20,30));
+//
+function checkNegative(num){
+    if(num < 0){
+        return num * -1;
+    }else{
+        return num;
+    }
+}
+console.log(checkNegative(-5));
+console.log(checkNegative(20));
