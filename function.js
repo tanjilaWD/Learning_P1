@@ -209,6 +209,29 @@ console.log(checkNegative(-5));
 console.log(checkNegative(20));
 //
 function evenSizedString(str){
-    console.log(str);
+    const size = str.length;
+    console.log(str, size);
 }
 evenSizedString('Dhaka');
+//
+function evenSizedString1(str){
+    const size = str.length;
+    if(size % 2 === 0){
+        console.log('Even Size');
+    }else{
+        console.log('Odd Size');
+    }
+}
+evenSizedString1('Dhaka');
+//
+function evenSizedString0(str){
+    const size = str.length;
+    if(size % 2 === 0){
+        return true;
+    }else{
+        return false;
+    }
+}
+const isEven0 = evenSizedString0('Human');
+console.log(isEven0);
+//
