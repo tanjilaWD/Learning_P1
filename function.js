@@ -147,3 +147,20 @@ function isEven(num){
 console.log(isEven(5));
 console.log(isEven(110));
 //
+function isOdd(num){
+    if(num % 2 ===1){
+        return true;
+    }
+    return false;
+}
+console.log(isOdd(10));
+console.log(isOdd(7));
+//
+function ten(Num){
+    if(Num > 10){
+        return true;
+    }
+    return false;
+}
+console.log(ten(60));
+//
