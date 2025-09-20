@@ -101,3 +101,9 @@ function calculateAge(birthYear){
 }
 console.log('Your age is:', calculateAge(2004), 'years');
 //
+function tenTimes(number){
+    const result = number * 10;
+    return result;
+}
+const output = tenTimes(5);
+console.log(output);
