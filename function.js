@@ -207,3 +207,8 @@ function checkNegative(num){
 }
 console.log(checkNegative(-5));
 console.log(checkNegative(20));
+//
+function evenSizedString(str){
+    console.log(str);
+}
+evenSizedString('Dhaka');
